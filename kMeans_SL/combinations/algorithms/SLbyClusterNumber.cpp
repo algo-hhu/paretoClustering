@@ -3,7 +3,7 @@
 #include <sstream>
 #include <vector>
 #include <string>
-#include <cstdlib> // Für rand() und srand()
+#include <cstdlib>
 #include <ctime>
 #include <cmath>
 

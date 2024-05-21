@@ -193,7 +193,7 @@ Distances readDistancesFromFile(const std::string& filename) {
 
     if (!inFile.is_open()) {
         std::cerr << "Failed to open file for reading: " << filename << std::endl;
-        return distances; // Return empty Distances object
+        return distances;
     }
 
     double distance;
